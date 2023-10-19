@@ -1,20 +1,23 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Fira Code"
 }
 
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/pexels-photo-986774.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: left;
+  font-size:small;
+  text-align: end;
+  font-weight: 400;
 }
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
-  height: 250px;
+#work .image-top {
+  height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -36,4 +39,9 @@ body {
     width: 100px;
   }
 
+}
+
+footer {
+
+  font-size: 11px;
 }
